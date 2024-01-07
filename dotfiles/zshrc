@@ -87,8 +87,9 @@ plugins=(
   docker-compose
   common-aliases
   yarn
-  per-directory-history
   z
+  aliases
+  history
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -102,7 +103,7 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -125,6 +126,6 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 #export PATH="$(brew --prefix)/opt/node@18/bin:$PATH"
 
-#For compilers to find node@18 you may need to set:
+# For compilers to find node@18 you may need to set:
 export LDFLAGS="-L$(brew --prefix)/opt/node@18/lib"
 export CPPFLAGS="-I$(brew --prefix)/opt/node@18/include"

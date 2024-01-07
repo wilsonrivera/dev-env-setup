@@ -40,7 +40,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 - [docker-compose](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker-compose)
 - [common-aliases](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/common-aliases)
 - [yarn](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/yarn)
-- [per-directory-history](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/per-directory-history)
 - [z](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z)
 - [aliases](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aliases)
 - [history](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/history)
