@@ -32,18 +32,6 @@ https://github.com/ohmyzsh/ohmyzsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-### Plugins
-- [git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git)
-- [dotnet](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/dotnet)
-- [macos](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macos)
-- [docker](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker)
-- [docker-compose](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker-compose)
-- [common-aliases](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/common-aliases)
-- [yarn](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/yarn)
-- [z](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z)
-- [aliases](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aliases)
-- [history](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/history)
-
 ### Themes
 - [pi](https://github.com/tobyjamesthomas/pi#installation)
 - [ohmyzsh-theme-passion](https://github.com/ChesterYue/ohmyzsh-theme-passion#install)

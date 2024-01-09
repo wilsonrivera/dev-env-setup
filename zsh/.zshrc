@@ -80,7 +80,10 @@ zstyle ':omz:plugins:yarn' global-path no
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  copypath
   git
+  # git-auto-fetch
+  gitignore
   dotnet
   macos
   docker
@@ -90,6 +93,10 @@ plugins=(
   z
   aliases
   history
+  vscode
+  urltools
+  encode64
+  gnu-utils
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -125,7 +132,3 @@ export LANG=en_US.UTF-8
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 #export PATH="$(brew --prefix)/opt/node@18/bin:$PATH"
-
-# For compilers to find node@18 you may need to set:
-export LDFLAGS="-L$(brew --prefix)/opt/node@18/lib"
-export CPPFLAGS="-I$(brew --prefix)/opt/node@18/include"
