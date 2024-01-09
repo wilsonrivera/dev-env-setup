@@ -1,7 +1,4 @@
-# Homebrew
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
+# [Homebrew](https://brew.sh/)
 
 ## Taps
 - homebrew/cask-fonts
@@ -24,38 +21,6 @@
 
 # Fonts
 [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
-
-# Oh My Zsh
-https://github.com/ohmyzsh/ohmyzsh
-
-```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
-### Themes
-- [pi](https://github.com/tobyjamesthomas/pi#installation)
-- [ohmyzsh-theme-passion](https://github.com/ChesterYue/ohmyzsh-theme-passion#install)
-
-# VSCode
-
-### settings.json
-```json
-{
-    "terminal.integrated.fontFamily": "'FiraCode Nerd Font', monospace",
-    "terminal.integrated.fontSize": 13,
-    "terminal.integrated.fontWeight": "normal",
-    "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 13
-}
-```
-
-### Extensions
-- dbaeumer.vscode-eslint
-- eamodio.gitlens
-- ms-azuretools.vscode-docker
-- esbenp.prettier-vscode
-- EditorConfig.EditorConfig
-- bradlc.vscode-tailwindcss
 
 # .NET
 https://dotnet.microsoft.com/en-us/

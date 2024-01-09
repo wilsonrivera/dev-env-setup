@@ -1,0 +1,6 @@
+- dbaeumer.vscode-eslint
+- eamodio.gitlens
+- ms-azuretools.vscode-docker
+- esbenp.prettier-vscode
+- EditorConfig.EditorConfig
+- bradlc.vscode-tailwindcss

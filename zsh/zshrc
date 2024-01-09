@@ -74,16 +74,24 @@ zstyle ':completion:*:*:docker-*:*' option-stacking yes
 # Disable yarn global directory
 zstyle ':omz:plugins:yarn' global-path no
 
+# Don't add a space after certain completions
+zstyle ':autocomplete:*' add-space \
+    executables aliases functions builtins reserved-words commands
+
+# Wait with autocompletion until typing stops for a certain amount of seconds
+zstyle ':autocomplete:*' delay 0.1  # seconds (float)
+
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  copyfile
   copypath
   git
   # git-auto-fetch
-  gitignore
+  # gitignore # using `gitignore-local` to skip network requests for suggestions
   dotnet
   macos
   docker
@@ -97,6 +105,8 @@ plugins=(
   urltools
   encode64
   gnu-utils
+  # Custom plugins
+  gitignore-local
 )
 
 source $ZSH/oh-my-zsh.sh
