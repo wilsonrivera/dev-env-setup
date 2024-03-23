@@ -74,6 +74,9 @@ zstyle ':completion:*:*:docker-*:*' option-stacking yes
 # Disable yarn global directory
 zstyle ':omz:plugins:yarn' global-path no
 
+# Disable pnpm global directory
+zstyle ':omz:plugins:pnpm' global-path false
+
 # Don't add a space after certain completions
 zstyle ':autocomplete:*' add-space \
     executables aliases functions builtins reserved-words commands
@@ -105,10 +108,14 @@ plugins=(
   urltools
   encode64
   gnu-utils
+  rust
+  # https://github.com/ntnyq/omz-plugin-pnpm
+  pnpm
   # Custom plugins
   gitignore-local
 )
 
+# fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 source $ZSH/oh-my-zsh.sh
 
 # User configuration

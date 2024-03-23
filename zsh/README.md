@@ -2,3 +2,4 @@
 
 # Useful links
 - [How to debug zsh startup time](http://jb-blog.readthedocs.io/en/latest/posts/0032-debugging-zsh-startup-time.html)
+- [PNPM plugin](https://github.com/ntnyq/omz-plugin-pnpm)
