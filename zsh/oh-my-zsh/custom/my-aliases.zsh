@@ -1,0 +1,1 @@
+alias nuke='rm -rf'
