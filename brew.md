@@ -9,6 +9,7 @@
 - pnpm
 - zsh-autocomplete
 - zsh-syntax-highlighting
+- eza
 
 ## Casks
 - docker

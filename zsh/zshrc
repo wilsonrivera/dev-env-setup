@@ -111,6 +111,8 @@ plugins=(
   rust
   # https://github.com/ntnyq/omz-plugin-pnpm
   pnpm
+  # https://github.com/z-shell/zsh-eza
+  zsh-eza
   # Custom plugins
   gitignore-local
 )
