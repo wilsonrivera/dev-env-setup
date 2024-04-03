@@ -17,3 +17,6 @@
 - iterm2
 - slack
 - visual-studio-code
+
+# Taps
+- brew install supabase/tap/supabase

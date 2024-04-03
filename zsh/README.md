@@ -4,3 +4,4 @@
 - [How to debug zsh startup time](http://jb-blog.readthedocs.io/en/latest/posts/0032-debugging-zsh-startup-time.html)
 - [PNPM plugin](https://github.com/ntnyq/omz-plugin-pnpm)
 - [eza plugin](https://github.com/z-shell/zsh-eza)
+- [supabase completion zsh](https://supabase.com/docs/reference/cli/supabase-completion#supabase-completion-zsh)
