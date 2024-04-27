@@ -1,1 +1,0 @@
-alias nuke='rm -ir'
