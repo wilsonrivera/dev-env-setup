@@ -1,3 +1,5 @@
+export LC_ALL=en_US.UTF-8
+
 # For compilers to find node@18
 export LDFLAGS="-L$(brew --prefix)/opt/node@18/lib"
 export CPPFLAGS="-I$(brew --prefix)/opt/node@18/include"
