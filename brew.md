@@ -15,6 +15,8 @@
 - zsh-autocomplete
 - zsh-autosuggestions
 - zsh-syntax-highlighting
+- gnupg
+- pinentry-mac
 
 ## Casks
 - docker
@@ -23,3 +25,7 @@
 - slack
 - visual-studio-code
 - dropbox
+
+## GPG (https://www.jetbrains.com/help/go/2024.3/set-up-GPG-commit-signing.html?Set_up_GPG_commit_signing&keymap=macOS)
+
+To kill GPG run `gpgconf --kill gpg-agent`
