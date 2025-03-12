@@ -1,3 +1,5 @@
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 export LC_ALL=en_US.UTF-8
 
 # For compilers to find node@20
