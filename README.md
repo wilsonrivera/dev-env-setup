@@ -1,23 +1,6 @@
 # [Homebrew](https://brew.sh/)
 
-## Taps
-- homebrew/cask-fonts
-
-### Formulae
-- node@18
-- coreutils
-- git
-- yarn
-- zsh (When either `zsh` is not installed or the version is not equal or greater than `5.0.8`)
-- zsh-autocomplete
-- zsh-autosuggestions
-- zsh-syntax-highlighting
-
-### Casks
-- docker
-- iterm2
-- visual-studio-code
-- font-fira-code-nerd-font
+# [Oh My ZSH!](https://ohmyz.sh/)
 
 # Fonts
 [JetBrains Mono](https://www.jetbrains.com/lp/mono/)

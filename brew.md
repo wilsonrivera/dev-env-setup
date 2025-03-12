@@ -1,15 +1,20 @@
 # Homebrew installations
 
+## Taps
+- homebrew/cask-fonts
+
 ## Formulae
 - node@18
-- yarn
-- zsh-autosuggestions
+- node@20
 - coreutils
 - git
+- yarn
 - pnpm
-- zsh-autocomplete
-- zsh-syntax-highlighting
 - eza
+- zsh (When either `zsh` is not installed or the version is not equal or greater than `5.0.8`)
+- zsh-autocomplete
+- zsh-autosuggestions
+- zsh-syntax-highlighting
 
 ## Casks
 - docker
@@ -17,3 +22,4 @@
 - iterm2
 - slack
 - visual-studio-code
+- dropbox
